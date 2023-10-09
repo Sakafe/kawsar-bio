@@ -1,4 +1,3 @@
-// https://www.youtube.com/watch?v=YQCDUJ6hhNY
 import styles from './App.module.css'
 import { About } from './components/About/About'
 import Contact from './components/Contact/Contact'
