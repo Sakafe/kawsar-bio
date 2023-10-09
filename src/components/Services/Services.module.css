@@ -1,0 +1,66 @@
+@import "../../vars.css";
+.containers {
+    /* position: relative; */
+    /* background-color: rgba(141, 232, 4, 0.14); */
+    background-color: var(--color-primary);
+    border-radius: 15px;
+    padding: 60px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+  .containers:hover{
+    background-color: rgba(141, 232, 4, 0.14);
+  }
+  .containers .services{
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(5rem,1fr));
+}
+.containers .services img{
+  width: 50%;
+}
+.containers .services .box{
+  box-shadow: 2px 2px 8px 2px #0433ceb8;
+  padding: 1rem;
+  text-align: center;
+  border: 0.2rem solid var(--color-primary);
+}
+.containers .services .box:hover{
+ background: var(--color-secondary);
+}
+.containers .services .box h3{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #ffc107;
+  padding: 1rem 0;
+}
+.containers .services .box p{
+  padding: 1.5rem 0;
+  font-weight: 500;
+}
+.containers .services .box a{
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem ;
+  background: rgba(3, 89, 164, 0.749);
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+.containers .services .box a:hover{
+  background: #ffc107;
+    color: rgb(128, 0, 66);
+}
+@media screen and (max-width: 830px){
+  .containers{
+    background-color: rgba(141, 232, 4, 0.14);
+  }
+  .containers .services .box a{
+    background: rgba(223, 54, 3, 0.736);
+  }
+}
